@@ -1,0 +1,17 @@
+.card {
+    overflow: hidden;
+    box-shadow: 1px 2px 2px black;    
+    transition: .3s;
+}
+
+.card:hover {
+    box-shadow: 1px 3px 5px black;
+}
+
+.card-img-top {
+    transition: .3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.03);
+}
